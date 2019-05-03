@@ -1,0 +1,46 @@
+Course: COMP2404A
+program: List Of Student Storage
+author: Michael Balcerzak
+revisions: c++ and made on Apr, 7, 2019
+purpose of the program: The point of the program is to let the user to store student's id and its courses and print all the information.
+Usage: The user can put a 1 to enter another student or a 0 to end the program.
+When you are entering a student, you can add the courses by adding its information line by line. 
+You can end entering courses by puting a 0 when you are entering the course cod.
+Also, you can get the students from the server too.
+You are able to store the courses in a student in order by the dates.
+In this new assignment you are able to caculate the GPA of the student's courses when all the courses are all added to the student. 
+Also, it has the observer that it can track all the student status that it GPA is bellow 3.0 and it falled more than 2 courses.
+list of files: main.cc, View.cc, View.h, StuServer.h, StuServer.o, Control.cc, Control.h, Monitor.cc, Monitor.h, GPAMonitor.cc, GPAMonitor.h, FWMonitor.cc, FWMonitor.h, Storage.cc, Storage.h, Student.cc, Student.h, List.cc, List.h, Course.cc, Course.h, CourseList.cc, CourseList.h, Makefile, in.txt, Readme.
+
+Compilation:
+Course.o
+CourseList.o
+Storage.o
+Student.o
+View.o
+Monitor.o
+GPAMonitor.o
+FWMonitor.o
+Control.o
+List.o
+main.o
+StuServer.o
+
+sas
+
+launching:
+./sas
+./sas < in.txt
+
+Intructions:
+1. you need to type tar xvf Assignment4.tar to open it.
+2. cd Assignment4 and write make to compile the program.
+3. to compile you need to write ./sas
+4. put 1 to enter a student then put the id of the student.
+5. put the course number, grade, date, and instructor.
+6. to stop puting courses, put a 0 when you are entering a course and continue to enter students.
+7. put 0 to stop puting students.
+8. and it will display all the information of all students and its courses and GPA in order by course code.
+9. also, at the end of the program it will print the GPA that is below 3.0 and the number times the student fail that is above 2
+10. to read a file type ./sas < in.txt and it will print all its information and it also print student who are from the server.
+
